@@ -14,9 +14,9 @@ using namespace std;
 
 		while (true) {
 			screan.outpi();
+			find_word.show_corect();
 			find_word.tru_find();
 			if (find_word.vin_check() == 0) { screan.incount(i); i++; }
-			find_word.show_corect();
 			find_word.show_uncorect();
 
 			if (find_word.vin_check() == 3 and i < 13) {
