@@ -67,8 +67,14 @@ void Fword::show_uncorect() {
 	if (!Uncorect.empty()){
 		
 		cout << "Uncorect symbols:\n";
-		//cout<<*unique(Uncorect.begin(), Uncorect.end())<<" ";
-		for (int i = 0; i < size(Uncorect); i++) { cout << Uncorect[i] << " "; }
+
+		vector<char>::iterator it = unique(Uncorect.begin(),Uncorect.end());
+		Uncorect.resize(distance(Uncorect.begin(), it));
+		it = Uncorect.begin();
+		while (it != Uncorect.end()) {
+			cout << *it << " ";
+			it++;
+		}
 		cout << endl;
 }
 	else {
