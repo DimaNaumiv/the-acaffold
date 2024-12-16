@@ -65,7 +65,9 @@ void Fword::tru_find() {
 }
 void Fword::show_uncorect() {
 	if (!Uncorect.empty()){
+		
 		cout << "Uncorect symbols:\n";
+		//cout<<*unique(Uncorect.begin(), Uncorect.end())<<" ";
 		for (int i = 0; i < size(Uncorect); i++) { cout << Uncorect[i] << " "; }
 		cout << endl;
 }
