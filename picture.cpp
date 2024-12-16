@@ -71,4 +71,5 @@ void Picture::outpi() {
 		scean[6][6] = '\\';
 	}
 	out_crean(scean);
+	cout << endl;
 }
