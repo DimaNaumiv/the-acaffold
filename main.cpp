@@ -10,14 +10,14 @@ using namespace std;
 	Picture screan;
 
 	string all() {
-		int i = 0;
+		int i = 1;
 
 		while (true) {
 			screan.outpi();
 			find_word.show_corect();
 			find_word.show_uncorect();
 			find_word.tru_find();
-			if (find_word.vin_check() == 0) { i++; screan.incount(i);}
+			if (find_word.vin_check() == 0) { screan.incount(i); i++;}
 
 			if (find_word.vin_check() == 3 and i < 13) {
 				system("cls");
