@@ -36,7 +36,7 @@ void Fword::tru_find() {
 	else {
 
 		string my_simbole_or_word;
-		cout << "\ninput simbol or word\n";
+		cout << "input simbol or word\n";
 		cin >> my_simbole_or_word;
 
 		char simbol = my_simbole_or_word[0];
