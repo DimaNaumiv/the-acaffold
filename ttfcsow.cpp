@@ -39,7 +39,7 @@ void Fword::tru_find() {
 		cout << "input simbol or word\n";
 		cin >> my_simbole_or_word;
 
-		char simbol = my_simbole_or_word[0];
+	    char simbol = my_simbole_or_word[0];
 
 		if (size(my_simbole_or_word) == 1) {
 			if (chars_with_string(simbol, word) == 1) {

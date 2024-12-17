@@ -3,6 +3,7 @@
 #include "wwf.h"
 #include "ttfcsow.h"
 #include "picture.h"
+#include "chrono"
 using namespace std;
 
     Wword what_word;
@@ -11,8 +12,11 @@ using namespace std;
 
 	string all() {
 		int i = 1;
+		int j = 0;
+		auto start = chrono::high_resolution_clock::now();
 
 		while (true) {
+			j++;
 			screan.outpi();
 			find_word.show_corect();
 			find_word.show_uncorect();
@@ -21,10 +25,14 @@ using namespace std;
 
 			if (find_word.vin_check() == 3 and i < 13) {
 				system("cls");
+				cout << "you spend time for finding: " << (chrono::high_resolution_clock::now() - start)/1000000000<<"econds";
+				cout << "\nyou do somethink " << j << " times\n";
 				return "you won\n";
 			}
 			else if (find_word.vin_check() != 3 and i >= 13) {
 				system("cls");
+				cout << "you spend time for finding: " << (chrono::high_resolution_clock::now() - start) / 1000000000 << "econds";
+				cout << "\nyou do somethink " << j << " times\n";
 				return "you lose\n";
 			}
 			system("pause");
