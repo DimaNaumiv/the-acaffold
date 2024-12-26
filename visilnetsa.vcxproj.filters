@@ -5,10 +5,12 @@
     <ClCompile Include="wwf.cpp" />
     <ClCompile Include="ttfcsow.cpp" />
     <ClCompile Include="picture.cpp" />
+    <ClCompile Include="hero.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="wwf.h" />
     <ClInclude Include="ttfcsow.h" />
     <ClInclude Include="picture.h" />
+    <ClInclude Include="hero.h" />
   </ItemGroup>
 </Project>

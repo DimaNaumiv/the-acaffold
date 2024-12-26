@@ -128,12 +128,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hero.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="picture.cpp" />
     <ClCompile Include="ttfcsow.cpp" />
     <ClCompile Include="wwf.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="hero.h" />
     <ClInclude Include="picture.h" />
     <ClInclude Include="ttfcsow.h" />
     <ClInclude Include="wwf.h" />

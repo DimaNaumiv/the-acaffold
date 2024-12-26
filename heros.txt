@@ -1,0 +1,4 @@
+name: gorb  times: 1  type of end: win
+seconds: 2nseconds
+name: torb  times: 1  type of end: win
+seconds: 4nseconds
