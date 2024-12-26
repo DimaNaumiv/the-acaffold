@@ -2,3 +2,30 @@ name: gorb  times: 1  type of end: win
 seconds: 2nseconds
 name: torb  times: 1  type of end: win
 seconds: 4nseconds
+name: gh  times: 1  type of end: win
+seconds: 0nseconds
+
+name: gh  times: 1  type of end: win
+seconds: 0nseconds
+
+name: a  times: 6  type of end: win
+seconds: 9nseconds
+
+name: hj  times: 6  type of end: win
+seconds: 6nseconds
+
+name: a  times: 1  type of end: win
+seconds: 3nseconds
+
+name: a  times: 1  type of end: win
+seconds: 0nseconds
+
+name: g  times: 1  type of end: win
+seconds: 0nseconds
+
+name: d  times: 5  type of end: win
+seconds: 6nseconds
+
+name: dima  times: 5  type of end: win
+seconds: 6nseconds
+
